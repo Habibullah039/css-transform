@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+
+
+    <style>
+        .container{
+            width: 300px;
+            height: 250px;
+            background-color: rgb(0, 68, 255);
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+        .inner-box {
+            width: 300px;
+            height: 250px;
+            background-color:brown;
+            border: 1px solid black;
+           transition: transform 5s linear 1s;
+
+        }
+
+        .inner-box:hover{
+
+            /* soto or boro hobe  */
+          /* transform: scale(.5); */
+          /* transform: scale(.5 , .3); */
+          /* transform: scaleX(.7); */
+          /* transform: scaleY(.4); */
+
+          /* rotate X hole upor theke nec a ghurbe r y hole dan theke bame ghurbe  */
+            /* transform: rotate(30deg); */
+            /* transform:rotatex(80deg); */
+            /* transform:rotateY(80deg); */
+
+            /* translate x hole left theke right a jabe r Y hole top theke bottom a jabe
+             r translate akta property hole X hobe r 2ta hole X and Y hobe*/
+            /* transform: translate(30px); */
+             /* transform: translateX(30px); */
+            /* transform: translateY(30px); */
+            /* transform: translate(30px , 20px); */
+
+
+            /* skew X hole x er dan nicer dik a ghurbe r Y hole y er bam upoe er dik a ghurbe
+            1 ta property hole x hobe r 2ta property hole x and Y hobe  */
+            /* transform: skew(20deg); */
+            /* transform: skewX(20deg); */
+            /* transform: skewY(20deg); */
+            /* transform: skew(20deg , 30deg); */
+           
+
+            transform: translate(20px , 30px) scale(0.5) rotate(30deg);
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>this is transform topics</h1>
+
+    <div class="box container">
+        <div class="inner-box">box-1</div>
+    </div>
+    <div class="box container">
+        <div class="inner-box">box-2</div>
+    </div>
+    <div class="box container">
+        <div class="inner-box">box-3</div>
+    </div>
+</body>
+</html>
